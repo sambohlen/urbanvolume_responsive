@@ -45,6 +45,8 @@ Screenshots can be found in the pdf file
 
 The workflow of making this website was well structured beginning creating the html pages. Moving on to CSS which I am comfortable using I managed to style it exactly how i wanted to. If I was to improve I would use SASS workflow however wasn't confident enough to try it. I am happy with the content of the page and believe it's bright and vibrant with lots of well placed images. The use of grid really helped with the layout and was easy to place information. I think the use of Javascript is also good as the contact info gets stored into a database in firebase using the likes of 'var' and 'functions'. If I was to take this project into the future I would add music that the DJ's have produced in their pages where the users can have a listen if they wanted to.
 
+##Faults
 
+Images should all load however using the githubpages link they load slowly
 
 
