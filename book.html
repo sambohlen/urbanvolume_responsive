@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e59a72a730.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <title>Book | UrbanVolume</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Navigation-->
+    <nav class="main_nav">
+        <div id="logo">
+            <img src="img/logopng.png" height="200px" width="200px">
+            </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="djpage.html">DJ's</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="book.html">Book</a></li>
+        </ul>
+        
+    </nav>
+    <section class="top_container3">
+    <div class="form animated bounceInLeft">
+    <div class="title">
+        <h1>CONTACT US</h1>
+        <h2>ENQUIRE ABOUT A DJ</h2>
+    </div>
+    <div class="alert">Your Message has been sent</div>
+    <div class="box1">
+        <form id="contact_form">
+            <input type="text" name="name" class= "form_control" placeholder="Enter Your Name.." id="name" required><br>
+            <input type="email" name="email" class= "form_control" placeholder="Enter Your Email.." id="email"required><br>
+            <input type="text" name="nightclub" class= "form_control" placeholder="Nightclub Name" id="nightclub"><br>
+            <input type="text" name="phone" class= "form_control" placeholder="Enter a Contact Number" id="number"required><br>
+            <textarea name="Message" class="form_control" placeholder="Message" rows="4" id="message"></textarea><br>
+            <input type="submit" name="" class="form_control submit" value="SUBMIT">
+        </form>
+    </div>
+</section>
+<section class="footer">
+    <!--footer-->
+    <p>UrbanVolume &copy; 2020</p>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e59a72a730.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Home | UrbanVolume</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--Navigation-->
+        <nav class="main_nav">
+            <div id="logo">
+            <img src="img/logopng.png" height="200px" width="200px">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="djpage.html">DJ's</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="book.html">Book</a></li>
+            </ul>
+
+        </nav>
+        <!--Top_Container-->
+
+        <section class="top_container">
+            <header class="showcase">
+                <h1>Meet the DJ's</h1>
+                <p>Take a look at the three most promising DJ's on the the south coast!</p>
+                <a href="djpage.html" class="btn">Read More</a>
+            </header>
+            <div class="top_box top_box_a">
+                <h4>Prices</h4>
+                <p class="price">DJ's From £80pn</p>
+                <a href="djpage.html" class="btn">Buy Now</a>
+            </div>
+        
+            <div class="top_box top_box_b">
+                <h4>About Us</h4>
+                <p class="price">DJ services to Urban Nightclubs in the south. </p> 
+                <a href="events.html" class="btn">Find Events</a>
+            </div>
+                
+        </section>
+
+        <!-- Boxes Section-->
+        <section class="boxes">
+            <div class="box">
+                <i class="fas fa-headphones fa-4x"></i>
+                <h3>Music</h3>
+                <p>Listen to the latest Urban Music with our upcoming DJ's</p>
+            </div>
+            <div class="box">
+                <i class="far fa-calendar-alt fa-4x"></i>
+                <h3>Events</h3>
+                <p>Get access to upcoming events through Urban Volume anywhere in the South Coast</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-coins fa-4x"></i>
+                <h3>Prices</h3>
+                <p>Discounted prices to some of the most popular clubs such as Oceana and Switch</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-users fa-4x"></i>
+                <h3>Social Media</h3>
+                <p>Keep up to date with the latest news on our Social Media Pages </p>
+            </div>  
+        </section> 
+            <!--Events Newsletter-->
+            <section class="newsletter">
+                <img src="img/events1.png" alt="events">
+                <div>
+                    <h2>Subscribe to Win</h2>
+                    <p>Subscribe to our newsletter for exclusive info on upcoming events involving Urban Volume. All sign ups will recieve a free ticket to Applebum at Switch hosted by DJ Pindz on the 10th of January 2020.</p>
+                    <form>
+                        <input type="email" placeholder="Enter Email...">
+                        <button type="submit" class="button_1">Subscribe</button> 
+                    </form>
+                </div>
+            </section>
+        
+        <!--Portfolio section-->
+        <section class="portfolio">
+
+            <img src="img/tom8.JPG" alt="DJ IMAGE" height="300" width="200">
+            <img src="img/tom2.jpg" alt="DJ IMAGE" height="300" width="200">
+            <img src="img/sam3.jpg" alt="DJ IMAGE" height="300" width="200">
+            <img src="img/DSC04157.jpg" alt="DJ IMAGE" height="300" width="200">
+            
+
+        </section>
+        <section class="footer">
+        <!--footer-->
+        <p>UrbanVolume &copy; 2020</p>
+        </section>
+    </div>
+    <!-- Wrapper End -->
+    <button id="btn_scroll_to_top">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+    const btnScrollToTop = document.querySelector("#btn_scroll_to_top");
+
+    btnScrollToTop.addEventListener("click", function(){
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    });
+});
+    </script>
+</body>
+</html>
