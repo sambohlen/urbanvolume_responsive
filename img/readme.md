@@ -1,5 +1,8 @@
 #Urban Volume
 
+githubprofile: https://github.com/sambohlen
+githubpages link: https://sambohlen.github.io/urbanvolume_responsive/
+
 Urban Volume is a DJ website that hosts three upcoming DJ portfolios. It also provides a service where you can find popular events and buy tickets using third party websites. You can contact the company using the contact page for any enquiries about the DJ's.
 
 ##Installation
